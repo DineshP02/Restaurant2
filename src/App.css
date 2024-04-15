@@ -83,13 +83,16 @@ body {
   left: 0;
   width: 70%;
   height: 100%;
+
   border: 0;
 }
 .Address {
   background-color: black;
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 .Footer {
   background-color: #373331;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
