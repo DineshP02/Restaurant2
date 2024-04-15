@@ -1,0 +1,95 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 0%;
+}
+.parent {
+  background-image: url("./assets/backimage.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100vw;
+  height: 130vh;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f0e68c;
+}
+.form-control {
+  background-color: black;
+}
+.form-control::placeholder {
+  color: white;
+}
+.img-thumbnail {
+  transition: transform 0.3s ease;
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.1);
+  border-color: #454035;
+}
+/* @media only screen and (min-width: 320px) {
+  .parent {
+    height: 120vh;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 576px) {
+  .parent {
+    height: 120vh;
+  }
+} */
+/* Booking */
+.booking {
+  margin-bottom: 0%;
+  background-color: black;
+  padding-top: 20px;
+}
+/* @media only screen and (min-width: 375px) and (max-width: 576px) {
+  .booking {
+    height: 130vh;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .booking {
+    height: 130vh;
+  }
+} */
+
+.Gallery {
+  margin-bottom: 0%;
+  background-color: black;
+  padding-top: 20px;
+}
+.Map {
+  margin-bottom: 0%;
+  background-color: black;
+  padding-top: 30px;
+}
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 45.25%; /* 16:9 aspect ratio (divide height by width) */
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  border: 0;
+}
+.Address {
+  background-color: black;
+  padding-bottom: 30px;
+}
+.Footer {
+  background-color: #373331;
+  padding-top: 30px;
+}
