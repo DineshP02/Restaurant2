@@ -25,6 +25,7 @@ function Navbar() {
           <a className="navbar-brand text-white " href="#">
             RESTAURANTLY
           </a>
+
           <button
             className="navbar-toggler bg-light"
             type="button"
@@ -34,7 +35,8 @@ function Navbar() {
             aria-expanded="false"
           >
             <span className="navbar-toggler-icon  "></span>
-          </button>{" "}
+          </button>
+
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">

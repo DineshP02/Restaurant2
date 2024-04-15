@@ -3,15 +3,6 @@ body {
   height: 100vh;
   margin-bottom: 0%;
 }
-.parent {
-  background-image: url("./assets/backimage.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  width: 100vw;
-  height: 130vh;
-}
-
 .navbar-nav .nav-link {
   color: white;
 }
@@ -33,6 +24,15 @@ body {
   transform: scale(1.1);
   border-color: #454035;
 }
+.parent {
+  background-image: url("./assets/backimage.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100vw;
+  height: 120vh;
+}
+
 /* @media only screen and (min-width: 320px) {
   .parent {
     height: 120vh;
